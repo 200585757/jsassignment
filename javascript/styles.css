@@ -1,0 +1,111 @@
+/* Styling for the body */
+body{
+    color: rgb(0, 0, 0);
+    background-color: rgb(205, 248, 234);
+    text-align: left;
+    max-width: fit-content;
+}
+
+/* Styling for generic div elements */
+div{
+    margin-top: 1%;
+    font-size: 20px;
+    
+}
+
+/* Styling for header */
+header{
+    font-size: 2rem;
+}
+
+/* Styling for header's h1 element */
+header h1{
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    color: rgb(30, 69, 15);
+    margin-top: 1%;
+    background-color: rgb(232, 219, 201);
+    background-image: url('1.png'); /* Background image */
+    background-size: 40%; /* Background size */
+}
+
+/* Styling for header's image */
+header img{
+    float: right;
+    width: 43%;
+    height: 43%;
+    padding-top: 2px;
+}
+
+/* Styling for header's navigation */
+header nav ul{
+    background-color: black;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 1px;
+    padding: 1px;
+    width: 100%;
+    word-spacing: 7px;
+    text-align: center;
+}
+
+/* Styling for block caption */
+#blockCaption{
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+    color: rgb(101, 11, 109);
+}
+
+/* Styling for header's navigation list items */
+header nav li{
+    border: 2px;
+    width: 5%;
+    padding: 1%;
+    display: inline-block;
+}
+
+/* Styling for header's navigation links */
+header nav a{
+    text-decoration:none;
+}
+
+/* Styling for sections */
+section{
+    width: 50%;
+    background-color: rgb(240, 220, 157);
+    border: 2px solid black;
+    padding-inline: 10px;
+    margin-block: 20px;
+    box-shadow: 10px 10px grey;
+}
+
+/* Styling for figures */
+figure{
+    width: 30%;
+    background-color: rgb(240, 220, 157);
+    border: 2px solid black;
+    padding: 5%;
+    position: absolute;
+    top: 160%;
+    left: 53.5%;
+
+}
+
+/* Styling for footer */
+footer{
+    text-align: center;
+    margin-top: 10px;
+    padding: 1px;
+    background-color: black;
+    color: white;
+}
+
+/* Styling for containers */
+.container{
+    text-align: center;
+    position: relative;
+    top: 10%;
+    width: 210%;
+    margin-top: 340px;
+}
